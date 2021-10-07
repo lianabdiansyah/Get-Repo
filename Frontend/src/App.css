@@ -3,6 +3,12 @@ h1 {
 }
 .juduluser {
   margin-left: 20%;
+  justify-content: center;
+}
+div img {
+  margin-left: 5px;
+  vertical-align: middle;
+
 }
 .namauser {
   text-decoration: underline;

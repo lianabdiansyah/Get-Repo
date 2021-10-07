@@ -9,7 +9,7 @@ function FormLogin() {
                 <input className="input" type="text" id="email" name="email" placeholder="Masukkan E-mail" />
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Masukkan Password" />
-                <button>Login</button>
+                <button className="btnLogin">Login</button>
             </form>
         </div>
     )

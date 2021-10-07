@@ -29,7 +29,7 @@ function ButtonRepo() {
     
     return (
       <div>
-        <button onClick={handleGetRepository}>Get Repository</button>
+        <button className="btnGet" onClick={handleGetRepository}>Get Repository</button>
         {loading ? (
           <Loading />
         ) : (

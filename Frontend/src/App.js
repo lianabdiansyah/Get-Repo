@@ -30,9 +30,15 @@ function App() {
         </>
       ) : (
         <>
-          <h2 className="juduluser">
-            Halo, welcome <span className="namauser">{user.login}</span>
-          </h2>
+          <div>
+            <h2 className="juduluser">
+              Halo, welcome <span className="namauser">{user.login}</span>
+              <img
+                src="https://avatars.githubusercontent.com/u/91248533?v=4"
+                alt="gambar"
+              />
+            </h2>
+          </div>
           <ButtonRepo />
         </>
       )}
