@@ -1,0 +1,10 @@
+button {
+  text-align: center;
+  display: block;
+   margin-left: 20%;
+  padding: 7px;
+  border-radius: 5px;
+  color: cornsilk;
+  background-color: rgba(15, 15, 15, 0.938);
+  cursor: pointer;
+}

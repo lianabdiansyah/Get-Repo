@@ -1,0 +1,22 @@
+
+li {
+    font-weight: bold;
+    width: 300px;
+    padding: 10px;
+    /* margin-left: 20%; */
+    margin-bottom: 1%;
+    border: 1px solid black;
+    background-color: rgb(219, 216, 216);
+    color:black
+}
+
+li:hover {
+    color:white;
+    background-color: black
+}
+
+.repo {
+    display: flex;
+    justify-content: center;
+}
+
